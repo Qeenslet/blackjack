@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="table">
+        <div id="messageWindow" style="height: 300px; max-height: 300px; overflow: auto"><h3>Press Play to Start!</h3></div>
+        <div id="casino"></div>
+        <div id="player"></div>
+        <input type="button" value="Play" onclick="blackjack.shuffle()">
+        <input type="button" id="getcard" value="Card" onclick="blackjack.newTurn()" disabled="disabled">
+        <input type="button" id="draw" value="Draw" onclick="blackjack.draw()" disabled="disabled">
+    </div>
+    <script src="bj.js"></script>
+</body>
+</html>
